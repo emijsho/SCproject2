@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Breaks</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+       background: rgb(172,198,170);
+background: linear-gradient(90deg, rgba(172,198,170,1) 0%, rgba(255,255,255,1) 50%, rgba(172,198,170,1) 100%);
+        font-family: "Croissant One", serif;
+        font-family: "Kanit", sans-serif;
+      }
+      h1 {
+        text-align: center;
+        text-decoration: underline;
+      }
+      h2 {
+        text-align: center;
+      }
+      .container {
+        max-width: 500px;
+        margin: 20px auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+        background-color: white;
+        color: #4d5e4c;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+      button:hover {
+        background-color: #acc6aa88;
+        color: black;
+        cursor: pointer;
+      }
+      .theme-button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+        background-color: #acc6aa88;
+        color: black;
+        font-size: 16px;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150ms ease-in-out;
+      }
+      .theme-button:hover {
+        background-color: #4d5e4c;
+        color: white;
+        cursor: pointer;
+      }
+
+      .dark {
+      background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(46,57,46,1) 50%, rgba(0,0,0,1) 100%);
+      }
+      .dark button {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+        background-color: #2e392e;
+        color: white;
+      }
+      .dark button:hover {
+        display: block;
+        margin: 0 auto;
+        border: 1px solid black;
+        background-color: #acc6aa88;
+        color: white;
+      }
+      .dark .container {
+        max-width: 500px;
+        margin: 20px auto;
+        background-color: #2e392e;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+      }
+      footer {
+        font-size: smaller;
+        display: block;
+        text-align: center;
+      }
+      a {
+        color: #4d5e4c;
+        font-family: "Croissant One", serif;
+        font-family: "Kanit", sans-serif;
+      }
+      .dark a {
+        color: white;
+        font-family: "Croissant One", serif;
+        font-family: "Kanit", sans-serif;
+      }
+      .city-intro-picture {
+        border-radius: 10px;
+        transition: 150ms ease-in-out;
+      }
+      .city-intro-picture:hover {
+        transform: scale(1.2);
+      }
+      img {
+        border-radius: 10px;
+        transition: 150ms ease-in-out;
+      }
+    img:hover {
+        transform: scale(1.2);
+      }
+      .grid {
+       margin:15px;
+       display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px; }
+      .grid img {
+        width:100%;
+        height:100%;
+        object-fit: cover;
+      border-radius: 6px;
+   }
+    </style>
+  </head>
+  <header><button class="theme-button">Change Brightness Theme</button></header>
+  <body>
+    <div class="container">
+      <h1>City Breaks</h1>
+      <h2>
+        <em
+          >(ˈsɪtɪ breɪk ) noun. tourism. a short holiday spent in a city. a city
+          break in Paris or Rome.</em
+        >
+      </h2>
+      <p>
+        <a href="https://en.wikipedia.org/wiki/Boston"
+          ><img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/955/original/Boston_Seaport.jpg?1700947687"
+            class="city-intro-picture" alt="Boston, USA"
+        /></a>
+        <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/956/original/bratislava.jpg?1700947693" alt="Bratislava, Slovakia"
+        />
+          <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/957/original/reykjavik.jpg?1700947699" alt="Reykjavik, Iceland"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/958/original/skopje.jpg?1700947705" alt="Skopje, North Macedonia"
+        />
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/104/959/original/sofia.jpg?1700947711" alt="Sofia, Bulgaria"
+        />
+</div>
+        <br />
+        My favourite hobby is taking a backpack & exploring a new city. If an
+        additional city is within a short commute by train or car, I like to add
+        another adventure into the mix before flying home.<br /><br />
+        In recent years I have visted Bratislava, Slovakia. Vienna, Austria.
+        Budapest, Hungary. Sofia, Bulgaria. Skopje, North Macedonia & Boston,
+        USA.<br /><br />
+        My next trip is a return to Reykjavik, Iceland.<br /><br />
+        <a
+          href="https://www.thetimes.co.uk/travel/destinations/europe/best-city-breaks-in-europe"
+          >Read The Times Travel: 24 of the best city breaks in Europe</a
+        >
+      </p>
+      <button><a href="https://skyscanner.net/">Book a City Break</a></button>
+    </div>
+    <footer>Coded by Emily Short</footer>
+  </body>
+  <script>
+    function changeTheme() {
+      let theme = document.querySelector("body");
+     if (theme.classList.contains("dark")){
+        theme.classList.remove("dark");
+     } else {
+        theme.classList.add("dark");
+    }
+}
+    let button = document.querySelector("button");
+    button.addEventListener("click", changeTheme);
+  </script>
+</html>
